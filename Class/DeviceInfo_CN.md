@@ -55,7 +55,7 @@
                    completion:(BridgeBlock)completion
 
 参数: data 根据设备数据点生成的控制模板
-返回: 回到控制数据下发结果
+返回: 回调控制数据下发结果
 
 ```
 
@@ -203,7 +203,7 @@
 
 参数: versionCode 版本唯一标识
       veresion 最新版本号
-返回: 回掉升级命令下发结果，升级进度请关注BridgeManagerDelegate
+返回: 回调升级命令下发结果，升级进度请关注BridgeManagerDelegate
 
 ```
 
@@ -213,7 +213,7 @@
 -(void)savePointWithData:(NSDictionary*)data
               completion:(BridgeBlock) completion
 参数: data 数据点控制数据
-返回: 回掉设置结果
+返回: 回调设置结果
 
 ```
 
@@ -229,7 +229,7 @@
       password 需要连接网络的密码
       timeOut 连接超时时间
       deviceType 所配置设备类型
-返回: 回掉配置结果。如若成功，则会回调配网成功的设备对象
+返回: 回调配置结果。如若成功，则会回调配网成功的设备对象
 
 ```
 
@@ -243,7 +243,7 @@
 参数: ssid 需要连接网络的ssid
       password 需要连接网络的密码
       timeOut 超时时间
-返回: 网络更新结果
+返回: 回调网络更新结果
 
 ```
 
