@@ -241,8 +241,8 @@ deviceType 所配置设备类型
                          timeOut:(NSInteger)timeOut
                       completion:(BridgeBlock)completion
 参数: ssid 需要连接网络的ssid
-password 需要连接网络的密码
-timeOut 超时时间
+	password 需要连接网络的密码
+	timeOut 超时时间
 返回: 网络更新结果
 
 ```
