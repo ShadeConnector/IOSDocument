@@ -111,9 +111,9 @@
                       completion:(BridgeBlock)completion
 
 参数: name 设备名称
-	  roomCode 设备所属房间
-	  deviceLogo 设备个性化图片数据(选填)
-	  deviceIcon 设备个性化图标索引值(选填)
+roomCode 设备所属房间
+deviceLogo 设备个性化图片数据(选填)
+deviceIcon 设备个性化图标索引值(选填)
 返回: 回调修改结果
 
 ```
@@ -148,7 +148,7 @@
                           completion:(BridgeBlock)completion
 
 参数: deviceLogo 设备个性化图片数据(选填)
-	  deviceIcon 设备个性化图标索引值(选填)
+deviceIcon 设备个性化图标索引值(选填)
 返回: 回调修改结果
 
 ```
@@ -202,7 +202,7 @@
                               completion:(BridgeBlock) completion
 
 参数: versionCode 版本唯一标识
-	  veresion 最新版本号
+veresion 最新版本号
 返回: 回掉升级命令下发结果，升级进度请关注BridgeManagerDelegate
 
 ```
@@ -226,9 +226,9 @@
                      deviceType:(NSString*)deviceType
                     completion:(BridgeBlock)completion
 参数: ssid 需要连接网络的ssid
-	  password 需要连接网络的密码
-	  timeOut 连接超时时间
-	  deviceType 所配置设备类型
+password 需要连接网络的密码
+timeOut 连接超时时间
+deviceType 所配置设备类型
 返回: 回掉配置结果。如若成功，则会回调配网成功的设备对象
 
 ```
@@ -241,8 +241,8 @@
                          timeOut:(NSInteger)timeOut
                       completion:(BridgeBlock)completion
 参数: ssid 需要连接网络的ssid
-	  password 需要连接网络的密码
-	  timeOut 超时时间
+password 需要连接网络的密码
+timeOut 超时时间
 返回: 网络更新结果
 
 ```
