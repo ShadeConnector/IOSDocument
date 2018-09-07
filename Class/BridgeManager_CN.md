@@ -17,7 +17,7 @@
               debugMode:(BOOL) debugMode
 
 参数: appId 厂商分配的App唯一标识
-	  debugMode Yes-测试环境 NO-生产环境
+      debugMode Yes-测试环境 NO-生产环境
 返回: 无
 
 ```
@@ -40,7 +40,7 @@
           Completion:(BridgeBlock)completion
 
 参数: name 用户名
-	  pass 密码
+      pass 密码
 返回: 回调登录结果
 
 ```
@@ -122,7 +122,7 @@
                                online:(BOOL)online
 
 参数: devices 所有在线状态发生变化的设备列表
-	  online	YES-上线 NO-离线
+      online	YES-上线 NO-离线
 
 ```
 
@@ -168,7 +168,7 @@
 -(void)versionUpdateWithRateValue:(NSInteger)rateValue mac:(NSString*)mac
 
 参数: rateValue 升级进度值(0-100)
-	  mac WiFi设备或者网关mac地址	
+      mac WiFi设备或者网关mac地址	
 ```
 
 * 登录Token失效,App需要退出重新登录

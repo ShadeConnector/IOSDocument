@@ -67,8 +67,8 @@
                       completion:(BridgeBlock)completion
 
 参数: useCache YES-获取缓存的定时器列表 NO-获取服务器上的定时器列表
-	  sortType 排序方式
-	  homeCode Home识别码
+      sortType 排序方式
+      homeCode Home识别码
 返回: 回调定时器列表
 
 ```

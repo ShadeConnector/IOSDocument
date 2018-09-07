@@ -91,9 +91,9 @@
                  completion:(BridgeBlock)completion
 
 参数: homeName Home名称
-	  homeLogo home个性化图片(选填)
-	  homeIcon home个性化图标索引值(选填)
-	  location home所在位置(选填)
+      homeLogo home个性化图片(选填)
+      homeIcon home个性化图标索引值(选填)
+      location home所在位置(选填)
 返回: 回调Home添加结果
 
 ```
@@ -150,9 +150,9 @@
                     completion:(BridgeBlock)completion
 
 参数: homeName Home名称
-	  homeLogo home个性化图片(选填)
-	  homeIcon home个性化图标索引值(选填)
-	  location home所在位置(选填)
+      homeLogo home个性化图片(选填)
+      homeIcon home个性化图标索引值(选填)
+      location home所在位置(选填)
 返回: 回调修改结果
 
 ```
@@ -169,8 +169,8 @@
                  completion:(BridgeBlock)completion
 
 参数: zoneName 区域名称
-	  zoneLogo 区域个性化图片(选填)
-	  zoneIcon home个性化图标索引值(选填)
+      zoneLogo 区域个性化图片(选填)
+      zoneIcon home个性化图标索引值(选填)
 返回: 回调添加结果
 
 ```
@@ -207,8 +207,8 @@
                  completion:(BridgeBlock)completion
 
 参数: roomName 房间名称
-	  roomLogo 房间个性化图片(选填)
-	  roomIcon 房间个性化图标索引值(选填)
+      roomLogo 房间个性化图片(选填)
+      roomIcon 房间个性化图标索引值(选填)
 返回: 回调房间列表
 
 ```
@@ -222,8 +222,8 @@
                  completion:(BridgeBlock)completion
 
 参数: roomName 房间名称
-	  roomLogo 房间个性化图片(选填)
-	  roomIcon 房间个性化图标索引值(选填)
+      roomLogo 房间个性化图片(选填)
+      roomIcon 房间个性化图标索引值(选填)
 返回: 回调添加结果
 
 ```
@@ -374,9 +374,9 @@
                    completion:(BridgeBlock)completion
 
 参数: sceneName 场景名称
-	  sceneLogo 场景个性化图片数据 (选填。如设置，则sceneIcon失效)
-	  sceneIcon 场景个性化图标索引值(选填，值大于0，不设置请置-1。如设置，则sceneLogo失效)
-	  actions 场景控制的设备动作列表
+      sceneLogo 场景个性化图片数据 (选填。如设置，则sceneIcon失效)
+      sceneIcon 场景个性化图标索引值(选填，值大于0，不设置请置-1。如设置，则sceneLogo失效)
+      actions 场景控制的设备动作列表
 返回: 回调添加结果
 
 ```
@@ -392,10 +392,10 @@
                    completion:(BridgeBlock)completion
 
 参数: sceneName 场景名称
-	  sceneLogo 场景个性化图片数据 (选填。如设置，则sceneIcon失效)
-	  sceneIcon 场景个性化图标索引值(选填，值大于0，不设置请置-1。如设置，则sceneLogo失效)
-	  actions 场景控制的设备动作列表
-	  timers 场景关联的定时器列表
+     sceneLogo 场景个性化图片数据 (选填。如设置，则sceneIcon失效)
+     sceneIcon 场景个性化图标索引值(选填，值大于0，不设置请置-1。如设置，则sceneLogo失效)
+     actions 场景控制的设备动作列表
+     timers 场景关联的定时器列表
 返回: 回调添加结果
 
 ```

@@ -72,7 +72,7 @@
                        completion:(BridgeBlock) completion
 
 参数: curtainType 成品帘类型
-	  deviceTye 设备类型
+      deviceTye 设备类型
 返回: 回调配对结果结果
 
 ```
@@ -86,8 +86,8 @@
                        completion:(BridgeBlock) completion
 
 参数: curtainType 成品帘类型
-	  deviceTye 设备类型
-	  timeOut 超时时间
+      deviceTye 设备类型
+      timeOut 超时时间
 返回: 回调配对结果结果
 
 ```
@@ -131,7 +131,7 @@
                             completion:(BridgeBlock) completion
 
 参数: versionCode 版本识别码
-	  version 固件版本号
+      version 固件版本号
 返回: 升级结果
 
 ```
@@ -146,9 +146,9 @@
                       completion:(BridgeBlock)completion
 
 参数: ssid 需要链接的网络SSID
-	  password 需要链接的网络密码
-	  timeOut 超时时间
-	  hubType 网关类型
+      password 需要链接的网络密码
+      timeOut 超时时间
+      hubType 网关类型
 返回: 回调配网添加结果
 
 ```
@@ -161,8 +161,8 @@
                          timeOut:(NSInteger)timeOut
                       completion:(BridgeBlock)completion
 参数: ssid 需要链接的网络SSID
-	  password 需要链接的网络密码
-	  timeOut 超时时间
+      password 需要链接的网络密码
+      timeOut 超时时间
 返回: 回调网络更新结果
 
 ```

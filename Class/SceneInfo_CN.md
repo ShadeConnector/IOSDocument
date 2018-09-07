@@ -34,7 +34,7 @@
                      completion:(BridgeBlock)completion
 
 参数: useCache YES-获取缓存的场景列表 NO-获取服务器上的场景列表
-	  homeCode 场景所属的Home唯一码
+      homeCode 场景所属的Home唯一码
 返回: 回调场景列表
 
 ```
@@ -78,7 +78,7 @@
                           completion:(BridgeBlock)completion
 
 参数: sceneLogo 场景图片数据(选填)
-	  sceneIcon 场景图标索引值(选填，不设置请填-1)
+      sceneIcon 场景图标索引值(选填，不设置请填-1)
 返回: 回调修改结果
 
 ```
@@ -93,9 +93,9 @@
                       completion:(BridgeBlock) completion
 
 参数: sceneName 场景名称
-	  sceneLogo 场景图片数据(选填)
-	  sceneIcon 场景图标索引值(选填，不设置请填-1)
-	  actions 场景控制信息
+      sceneLogo 场景图片数据(选填)
+      sceneIcon 场景图标索引值(选填，不设置请填-1)
+      actions 场景控制信息
 返回: 回调修改结果
 
 ```

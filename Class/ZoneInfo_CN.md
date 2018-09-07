@@ -76,8 +76,8 @@
                     completion:(BridgeBlock)completion
 
 参数: zoneName 区域名称
-	  zoneLogo 区域个性化图片数据
-	  zoneIcon 区域个性胡图标索引值
+      zoneLogo 区域个性化图片数据
+      zoneIcon 区域个性胡图标索引值
 返回: 回调修改结果
 
 ```
@@ -91,8 +91,8 @@
                  completion:(BridgeBlock)completion
 
 参数: roomName 房间名称
-	  roomLogo 房间个性化图片(选填)
-	  roomIcon 房间个性化图标索引值(选填)
+      roomLogo 房间个性化图片(选填)
+      roomIcon 房间个性化图标索引值(选填)
 返回: 回调添加结果
 
 ```

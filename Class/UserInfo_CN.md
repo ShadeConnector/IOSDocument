@@ -69,7 +69,7 @@
                                   completion:(BridgeBlock)completion
 
 参数: mobileNo 手机号
-	  verifyCode 验证码
+      verifyCode 验证码
 返回: 回调校验结果
 
 ```
@@ -82,7 +82,7 @@
                                      completion:(BridgeBlock)completion
 
 参数: mobileNo 手机号
-	  verifyCode 验证码
+      verifyCode 验证码
 返回: 回调校验结果
 
 ```
@@ -96,8 +96,8 @@
                       completion:(BridgeBlock)completion
 
 参数: mobileNo 手机号
-	  verifyCode 验证码
-	  password 用户设置的新密码
+      verifyCode 验证码
+      password 用户设置的新密码
 返回: 回调重置结果
 
 ```
@@ -110,7 +110,7 @@
                   completion:(BridgeBlock)completion
 
 参数: userName 用户名(邮箱或中国大陆手机号)
-	  password 用户设置的密码
+      password 用户设置的密码
 返回: 回调注册结果
 
 ```
@@ -145,7 +145,7 @@
                     completion:(BridgeBlock)completion
 
 参数: image 用户头像信息
-	  nickName 用户昵称
+      nickName 用户昵称
 返回: 回调操作结果
 
 ```
@@ -158,7 +158,7 @@
                    completion:(BridgeBlock)completion
 
 参数: password 用户设置的新密码
-	  oldPwd 用户原来密码
+      oldPwd 用户原来密码
 返回: 回调操作结果
 
 ```
@@ -178,14 +178,14 @@
                         completion:(BridgeBlock)completion
 
 参数: nickName 用户昵称
-	  email 邮箱
-	  mobileNo 手机号
-	  sex 性别
-	  realName 真实姓名
-	  birthday 生日
-	  location 联系地址
-	  securityNum 身份证号
-	  remark 备注信息(要求存放json格式数据)
+      email 邮箱
+      mobileNo 手机号
+      sex 性别
+      realName 真实姓名
+      birthday 生日
+      location 联系地址
+      securityNum 身份证号
+      remark 备注信息(要求存放json格式数据)
 返回: 回调操作结果
 
 ```

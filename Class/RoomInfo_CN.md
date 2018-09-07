@@ -85,7 +85,7 @@
                     completion:(BridgeBlock)completion
 
 参数: roomIcon 图标索引值(选填)
-	  roomLogo 个性化图片数据
+      roomLogo 个性化图片数据
 返回: 回调修改结果
 
 ```
@@ -99,8 +99,8 @@
                     completion:(BridgeBlock)completion
 
 参数: roomName 房间名称
-	  roomIcon 图标索引值(选填)
-	  roomLogo 个性化图片数据
+      roomIcon 图标索引值(选填)
+      roomLogo 个性化图片数据
 返回: 回调修改结果
 
 ```
@@ -134,10 +134,10 @@
                       completion:(BridgeBlock)completion
 
 参数: devices 组包好的设备列表
-	  devices保存的设备字典对象，其中字典包含如下几个Key
-	  key:data 组包好的数据点信息
-	  key:mac 设备mac地址
-	  key:type 设备类型
+      devices保存的设备字典对象，其中字典包含如下几个Key
+      key:data 组包好的数据点信息
+      key:mac 设备mac地址
+      key:type 设备类型
 返回: 回调控制命令发送结果
 
 ```
